@@ -1,0 +1,34 @@
+main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30vh;
+    width: 100%;
+    background-image: url(assets/images/background-pattern-desktop.svg);
+    z-index: -1;
+  }
+
+  @media only screen and (max-width: 600px) {
+    main {
+        background-image: url(assets/images/background-pattern-mobile.svg);
+    }
+  }
+
+  .container{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  body{
+    min-height: 100vh;
+    margin-top: 190px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: hsl(275, 100%, 97%);;
+  }
+  
+  .img-other{
+    padding-left: 10px;
+  }
+
